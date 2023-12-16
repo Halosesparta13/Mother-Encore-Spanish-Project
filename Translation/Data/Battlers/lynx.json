@@ -1,0 +1,24 @@
+{
+	"name": "Lince",
+	"maxhp": 42,
+	"hp": 42,
+	"maxpp": 0,
+	"pp": 0,
+	"speed": 78,
+	"offense": 28,
+	"defense": 40,
+	"iq": 30,
+	"guts": 0,
+	"level": 4,
+	"exp": 32,
+	"cash": 25,
+	"skills": [
+		{"skill" : "bash", "weight" : 1}
+	],
+	"description": "Es bastante diferente a un gato mascota.",
+	"boss": false,
+	"sprite": "lynx",
+	"ovsprite": "LynxOV",
+	"music": "",
+	"bg": ""
+}

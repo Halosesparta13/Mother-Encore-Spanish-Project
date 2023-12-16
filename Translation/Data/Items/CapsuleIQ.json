@@ -1,0 +1,53 @@
+{
+	"name": {
+		"english": "Capsula de IQ",
+		"french": "Capsule de QI"
+	},
+	"article" : {
+		"english": "una",
+		"french": "une"
+	},
+	"keyitem": false,
+	"cost": 0,
+	"value": 0,
+	"usable": {
+		"ninten": true,
+		"lloyd": true,
+		"ana": true,
+		"teddy": false,
+		"pippi": false
+	},
+	"action_one": {
+		"name": {
+			"english": "Comer", 
+			"french": "Manger"
+		},
+		"function": "consume",
+		"text": {
+			"english": "¡El IQ máximo de User aumentó en 3!",
+			"french": "Le QI maximum de User a augmenté par 3!"
+		},
+		"textfail": {
+			"english": "User no comerá la Capsula de IQ.",
+			"french": "User ne veut pas manger la Capsule de QI."
+		}
+	},
+	"action_two": null,
+	"transform": "",
+	"slot": "",
+	"HPrecover": 0,
+	"PPrecover": 0,
+	"boost": {
+		"maxhp": 0, 
+		"maxpp": 0, 
+		"speed": 0, 
+		"offense": 0, 
+		"defense": 0, 
+		"iq": 3, 
+		"guts": 0
+	},
+	"description": {
+		"english": "Aumenta tu IQ máximo en 3.",
+		"french": "Augmente ton QI maximum par 3."
+	}
+}

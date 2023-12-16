@@ -1,0 +1,150 @@
+{
+	"0": {
+		"actors": {
+			"ninten": "ninten",
+			"pippi": "pippi",
+			"marshal": "talker",
+			"canary": "npc"
+		},
+		"actorsturn": {
+			"ninten": {
+				"actor": "marshal"
+			},
+			"pippi": {
+				"actor": "marshal"
+			}
+		},
+		"name": "Marshal",
+		"text": "Mira por ti mismo,todos los animales han escapado.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Marshal",
+		"text": "Solo queda este Canario Bebé.",
+		"sound": "Adult",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Marshal",
+		"text": "Encontramos este pobre pajarito sin su mami en la Villa Canario, así que lo rescatamos.",
+		"sound": "Adult",
+		"goto": "3"
+	},
+	"3": {
+		"name": "Marshal",
+		"text": "Sí, lo sé, somo algo así como héroes.",
+		"sound": "Adult",
+		"goto": "4"
+	},
+	"4": {
+		"name": "Marshal",
+		"text": "De todos modos, ¿lo quieres?",
+		"sound": "Adult",
+		"goto": "5"
+	},
+	"5": {
+		"actorsturn": {
+			"ninten": {
+				"actor": "pippi"
+			},
+			"pippi": {
+				"actor": "ninten"
+			}
+		},
+		"talker": "pippi",
+		"name":"[Pippi]",
+		"text":"Oh, necesitamos ayudarlo.",
+		"sound": "Kid",
+		"goto": "6"
+	},
+	"6": {
+		"name": "[Pippi]",
+		"text": "Debe de ser tan triste sin su mami.",
+		"sound": "Kid",
+		"goto": "7"
+	},
+	"7": {
+		"actorsturn": {
+			"ninten": {
+				"actor": "marshal"
+			},
+			"pippi": {
+				"actor": "marshal"
+			}
+		},
+		"talker": "marshal",
+		"cash": true,
+		"name": "Marshal",
+		"text": "Ya escuchastes a la pequeña niña. ¿Que tal unos $55?",
+		"sound": "Adult",
+		"options": {
+			"Si": "8",
+			"No": "10",
+			"cancel": "10"
+		}
+	},
+	"8": {
+		"name":"Marshal",
+		"if": {
+			"hascash": 55,
+			"goto": "11"
+		},
+		"goto": "9"
+	},
+	"9": {
+		"cash": false,
+		"name": "Marshal",
+		"text": "¿No tienes suficiente dinero?",
+		"sound": "Adult",
+		"goto": "10"
+	},
+	"10": {
+		"cash": false,
+		"name": "Marshal",
+		"text": "Bueno, si fuera gratis, ¿lo quedrias? ¡Entonces tenlo!",
+		"sound": "Adult",
+		"goto": "12"
+	},
+	"11": {
+		"givecash": -55,
+		"name": "Marshal",
+		"text": "Cuidalo muy bien. ¡Ven a vernos de nuevo!",
+		"sound": "Adult",
+		"goto": "12"
+	},
+	"12": {
+		"cash": false,
+		"setpartynpcs": {
+			"canarychick": true
+		},
+		"changereplaced": {
+			"canary": "canarychick",
+			"pippi": "pippi"
+		},
+		"musicvolume": -20,
+		"flag": "canary_found",
+		"talker": "none",
+		"text": "¡Has obtenido un Canario Bebé!",
+		"item": "CanaryChick",
+		"soundeffect": "Party Fanfare.mp3",
+		"wait": 5,
+		"goto": "13"
+	},
+	"13": {
+		"actorsturn": {
+			"ninten": {
+				"actor": "pippi"
+			},
+			"pippi": {
+				"actor": "ninten"
+			}
+		},
+		"musicvolume": 0,
+		"setcrumbs": true,
+		"talker": "pippi",
+		"name": "[Pippi]",
+		"text": "Vamos, ¡dirijamonos a la Villa Canario a ver si nos encontramos a su mamá!",
+		"sound": "Kid"
+	}
+}

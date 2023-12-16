@@ -1,0 +1,13 @@
+{
+	"0": {
+		"name": "???",
+		"text": "Estuve atrapado aquí desde que los animales escaparon, y estoy muy asustado para salir.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name": "???",
+		"text": "Tendrás que encontrar otro baño, lo siento.",
+		"sound": "Adult"
+	}
+}

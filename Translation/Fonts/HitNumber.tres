@@ -1,0 +1,15 @@
+[gd_resource type="BitmapFont" load_steps=3 format=2]
+
+[ext_resource path="res://addons/BitmapFontCutterPlus/cutter.gd" type="Script" id=1]
+[ext_resource path="res://Graphics/UI/Battle/hit_number.png" type="Texture" id=2]
+
+[resource]
+textures = [ ExtResource( 2 ) ]
+chars = PoolIntArray( 56, 0, 88, 0, 11, 11, 0, 0, 11, 48, 0, 0, 0, 11, 11, 0, 0, 11, 57, 0, 99, 0, 11, 11, 0, 0, 11, 49, 0, 11, 0, 11, 11, 0, 0, 11, 58, 0, 110, 0, 11, 11, 0, 0, 11, 50, 0, 22, 0, 11, 11, 0, 0, 11, 51, 0, 33, 0, 11, 11, 0, 0, 11, 52, 0, 44, 0, 11, 11, 0, 0, 11, 53, 0, 55, 0, 11, 11, 0, 0, 11, 54, 0, 66, 0, 11, 11, 0, 0, 11, 55, 0, 77, 0, 11, 11, 0, 0, 11 )
+height = 11.0
+script = ExtResource( 1 )
+GlyphSize = Vector2( 11, 11 )
+TextureToCut = ExtResource( 2 )
+StartChar = 48
+Spacing = 0.0
+Monospaced = true

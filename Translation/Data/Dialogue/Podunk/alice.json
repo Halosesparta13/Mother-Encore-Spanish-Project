@@ -1,0 +1,31 @@
+{
+	"0": {
+		"name": "Alice",
+		"text": "¡Oye! ¿Sabias que no solo puedes comer Pan, sino que también puedes [color]dejar un rastro de migajas[/color]?",
+		"sound": "Sexy",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Alice",
+		"text": "Si usas las Migajas en una pelea, puedes [color]instantaneamente escapar de una batalla[/color].",
+		"sound": "Sexy",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Alice",
+		"text": "Escuché tiempo atrás, que la gente lo usaria para volver sobre sus pasos cuando se perdieran.",
+		"sound": "Sexy",
+		"goto": "3"
+	},
+	"3": {
+		"name": "Alice",
+		"text": "Sin embargo, tendían atraer bugs y causar problemas, así que lo dejaron de hacerlo.",
+		"sound": "Sexy",
+		"goto": "4"
+	},
+	"4": {
+		"name": "Alice",
+		"text": "Se rumorea que un tipo incluso se perdió en un pueblo fantasma donde todo era blanco.",
+		"sound": "Sexy"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Antoides",
+	"maxhp": 34,
+	"hp": 34,
+	"maxpp": 25,
+	"pp": 25,
+	"speed": 4,
+	"offense": 14,
+	"defense": 13,
+	"iq": 10,
+	"guts": 0,
+	"level": 4,
+	"exp": 74,
+	"cash": 7,
+	"skills": [
+		{"skill" : "bash", "weight" : 1}
+	],
+	"description": "Son pequeños, rapidos y atacan en grupitos.",
+	"boss": false,
+	"sprite": "antoid",
+	"ovsprite": "AntoidOV",
+	"music": "",
+	"bg": ""
+}

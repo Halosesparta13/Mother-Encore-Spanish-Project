@@ -1,0 +1,19 @@
+{
+	"0": {
+		"name": "Alfred",
+		"text": "Quizas te sorprenda, pero en realidad no trabajo aquí.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Alfred",
+		"text": "Llevo 30 años visitando este lugar, y la gente sigue preguntandome si pueden alimentar a los pájaros.",
+		"sound": "Adult",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Alfred",
+		"text": "La respuesta es no, pero siguen molestando.",
+		"sound": "Adult"
+	}
+}

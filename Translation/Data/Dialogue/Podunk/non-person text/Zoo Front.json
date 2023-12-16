@@ -1,0 +1,14 @@
+{
+	"0": {
+		"emoteplayer": "question",
+		"text": "¡Bienvenidos al milagroso zoológico de Podunk!",
+		"goto": "1"
+	},
+	"1": {
+		"text": "¡Diversión para todos! Niños y adultos por igual.",
+		"goto": "2"
+	},
+	"2": {
+		"text": "(¡Asegurense de no alimentar a los animales!)"
+	}
+}

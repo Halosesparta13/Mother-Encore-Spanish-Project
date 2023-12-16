@@ -1,0 +1,19 @@
+{
+	"0": {
+		"name": "Guardia",
+		"text": "El acalde puso la orden de no pasar hasta que la conmoción en el zoológico haya terminado.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Guardia",
+		"text": "Un poco extremo, lo sé, pero esas son las ordenes. Lo siento.",
+		"sound": "Adult",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Guardia",
+		"text": "El acalde es el único que tiene las llaves del zoológico, hasta donde yo sé.",
+		"sound": "Adult"
+	}
+}

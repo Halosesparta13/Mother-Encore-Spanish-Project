@@ -1,0 +1,13 @@
+{
+	"0": {
+		"name": "Matt",
+		"text": "Si te diriges al norte y luego al oeste, encontraras a la Villa Canario.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Matt",
+		"text": "Deberias hecharle un vistazo, ¡es gratis!",
+		"sound": "Adult"
+	}
+}

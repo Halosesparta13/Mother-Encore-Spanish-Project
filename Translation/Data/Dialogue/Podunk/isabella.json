@@ -1,0 +1,13 @@
+{
+	"0": {
+		"name": "Isabella",
+		"text": "El chico de la Villa Canario es mi idolo.",
+		"sound": "Sexy",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Isabella",
+		"text": "Me pregunto si es soltero...",
+		"sound": "Sexy"
+	}
+}

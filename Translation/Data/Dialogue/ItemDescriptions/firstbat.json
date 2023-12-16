@@ -1,0 +1,19 @@
+{
+	"0": {
+		"text":"PartyLead abrió el presente.",
+		"goto":"1"
+	},
+	"1": {
+		"text":"¡ItemReceiver obtuvo un ItemArt ItemName!",
+		"soundeffect":"Item Received.mp3",
+		"goto": "2"
+	},
+	"2": {
+		"text":"Hay una nota pegada en el.",
+		"goto": "3"
+	},
+	"3": {
+		"name": "Nota",
+		"text": "Los bates son geniales, pero no hacen mucho almenos que los equipes."
+	}
+}
