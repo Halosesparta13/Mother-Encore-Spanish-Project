@@ -1,2 +1,3 @@
 # Mother Encore Spanish Project
- Se documentará todo el proceso de traducción de Mother Encore al Español. Contando con los archivos ya traducidos.
+Esta rama contiene los archivos originales de Mother Encore.
+Fueron extraidos con el programa de ingenieria inversa GDRE-TOOLS
