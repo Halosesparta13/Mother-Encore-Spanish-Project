@@ -1,0 +1,96 @@
+{
+	"0": {
+		"actors": {
+			"lindgren": "Objects/NPCS/npc26",
+			"ninten": "leader",
+			"pippi": "pippi"
+		},
+		"emoteactors": {
+			"lindgren": "exclamation"
+		},
+		"actorsdir": {
+			"lindgren": {
+				"x": 1,
+				"y": 0
+			}
+		},
+		"wait": 1,
+		"autoadvance": true,
+		"caninput": false,
+		"goto": "1"
+	},
+	"1": {
+		"actorsturn": {
+			"ninten": {
+				"x": -1,
+				"y": 0,
+				"speed": 0.1
+			},
+			"pippi": {
+				"x": -1,
+				"y": 0,
+				"speed": 0.05
+			}
+		},
+		"talker": "lindgren",
+		"name": "Sra. Lindgren",
+		"text": "Todos los canarios de la villa volvieron a catar otra vez.",
+		"sound": "Sexy",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Sra. Lindgren",
+		"text": "Supongo que has reunido al poyuelo con su madre, ¿no es así?",
+		"sound": "Sexy",
+		"goto": "3"
+	},
+	"3": {
+		"talker": "pippi",
+		"name": "[Pippi]",
+		"text": "¡Sip! La encontramos al otro lado de una grieta en la pared.",
+		"sound": "Kid",
+		"goto": "4"
+	},
+	"4": {
+		"talker": "lindgren",
+		"name": "Sra. Lindgren",
+		"text": "¡Genial! ¡Sabia que la encontrarían!",
+		"sound": "Sexy",
+		"goto": "5"
+	},
+	"5": {
+		"name": "Sra. Lindgren",
+		"text": "Oh, por cierto, el [color]acalde[/color] tiene ganas de verte, [Ninten]...",
+		"sound": "Sexy",
+		"goto": "6"
+	},
+	"6": {
+		"name": "Sra. Lindgren",
+		"text": "[Pippi], ve con [Ninten] y ayudalo a arreglar esto.",
+		"sound": "Sexy",
+		"goto": "7"
+	},
+	"7": {
+		"talker": "pippi",
+		"name": "[Pippi]",
+		"text": "¡Claro que si, mamá!",
+		"sound": "Kid",
+		"goto": "8"
+	},
+	"8": {
+		"flag": "leave_canary_village",
+		"actorsturn": {
+			"ninten": {
+				"actor": "pippi",
+				"speed": 0.05
+			},
+			"pippi": {
+				"actor": "ninten",
+				"speed": 0.05
+			}
+		},
+		"name": "[Pippi]",
+		"text": "¡Vamos, [Ninten]! ¡Vamos a ver al [color]acalde[/color]!",
+		"sound": "Kid"
+	}
+}

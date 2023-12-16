@@ -1,0 +1,19 @@
+{
+	"0": {
+		"name": "Pippi",
+		"text": "Ese pollito debe de estar muy preocupado.",
+		"sound": "Kid",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Pippi",
+		"text": "Apresurémonos y reunámoslos, ¿De acuerdo?",
+		"sound": "Kid",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Pippi",
+		"text": "Si no recuerdo mal, la Villa Canario deberia de estar al noroeste de la ciudad.",
+		"sound": "Kid"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"0": {
+		"name":"Marshal",
+		"text":"Compruebalo tu mismo, todos los animales han escapado.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name":"Marshal",
+		"text":"Uff... Con suerte, pronto tendremos una nueva mascota para vender.",
+		"sound": "Adult",
+	}
+}

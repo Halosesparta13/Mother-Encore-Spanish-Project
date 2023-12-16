@@ -1,0 +1,47 @@
+{
+	"0": {
+		"name": "Alfred",
+		"text": "Laura recordó su canción, y comenzó a cantar una vez más.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Alfred",
+		"text": "¿Te aprendistes la melodia?",
+		"sound": "Adult",
+		"options": {
+			"Si": "3",
+			"No": "2",
+			"cancel": "2"
+		}
+	},
+	"2": {
+		"name": "Alfred",
+		"text": "Eso no es bueno.",
+		"sound": "Adult"
+	},
+	"3": {
+		"name": "Alfred",
+		"text": "Escuché que hace mucho tiempo los canarios de esta villa no cantaban.",
+		"sound": "Adult",
+		"goto": "4"
+	},
+	"4": {
+		"name": "Alfred",
+		"text": "Bueno, eso fue hasta que apareció un hombre con una ocarina y comenzó a tocar una canción de cuna para los canarios de este pueblo.",
+		"sound": "Adult",
+		"goto": "5"
+	},
+	"5": {
+		"name": "Alfred",
+		"text": "También hubo una mujer que soltó en la villa sus canarios cantores.",
+		"sound": "Adult",
+		"goto": "6"
+	},
+	"6": {
+		"flag": "alfred_song",
+		"name": "Alfred",
+		"text": "Juntos lograron convertir este tranquila villa en una llena de vida.",
+		"sound": "Adult"
+	}
+}

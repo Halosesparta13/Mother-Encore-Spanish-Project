@@ -1,0 +1,103 @@
+{
+	"0": {
+		"actors": {
+			"lindgren": "Objects/NPCS/npc20",
+			"ninten": "leader"
+		},
+		"actorsturn": {
+			"ninten": {
+				"x": 1,
+				"y": 0,
+				"speed": 0.1
+			}
+		},
+		"name": "Sra. Lindgren",
+		"text": "¡[Pippi]!",
+		"sound": "Sexy",
+		"flag": "pippis_mom_call",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Sra. Lindgren",
+		"text": "¡Oh, [Pippi]!",
+		"sound": "Sexy",
+		"movecam": {
+			"x": 640,
+			"y": 290,
+			"time": 2
+		},
+		"actorsmove": {
+			"lindgren": {
+				"movement": [
+					{
+						"x": 0,
+						"y": 16
+					}
+				],
+				"speed": 32,
+				"animation": "Walk",
+				"type": "step"
+			}
+		},
+		"wait": 1,
+		"goto": "2"
+	},
+	"2": {
+		"name": "Sra. Lindgren",
+		"text": "¡Oh mi, oh Dios!",
+		"sound": "Sexy",
+		"actorsmove": {
+			"lindgren": {
+				"movement": [{"x": -16, "y": 0}],
+				"speed": 32,
+				"animation": "Walk",
+				"type": "step"
+			}
+		},
+		"wait": 0.5,
+		"goto": "3"
+	},
+	"3": {
+		"name": "Sra. Lindgren",
+		"text": "¡Oh mi, oh Dios!",
+		"sound": "Sexy",
+		"actorsmove": {
+			"lindgren": {
+				"movement": [{"x": 32, "y": 0}],
+				"speed": 32,
+				"animation": "Walk",
+				"type": "step"
+			}
+		},
+		"wait": 1,
+		"goto": "4"
+	},
+	"4": {
+		"name": "Sra. Lindgren",
+		"text": "¡¿Que puedo hacer, que debo hacer?!",
+		"sound": "Sexy",
+		"actorsmove": {
+			"lindgren": {
+				"movement": [{"x": -16, "y": 0}],
+				"speed": 32,
+				"animation": "Walk",
+				"type": "step"
+			}
+		},
+		"wait": 0.5,
+		"goto": "5"
+	},
+	"5": {
+		"showbox": false,
+		"actorsmove": {
+			"lindgren": {
+				"movement": [{"x": 0, "y": 16}],
+				"speed": 32,
+				"animation": "Walk",
+				"type": "step"
+			}
+		},
+		"wait": 0.6,
+		"autoadvance": true
+	}
+}

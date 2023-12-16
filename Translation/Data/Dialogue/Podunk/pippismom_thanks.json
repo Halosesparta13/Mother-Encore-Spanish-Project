@@ -1,0 +1,19 @@
+{
+	"0": {
+		"name": "Sra. Lindgren",
+		"text": "Quiero agradecerte nuevamente por tu ayuda.",
+		"sound": "Sexy",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Sra. Lindgren",
+		"text": "[Pippi] está bien ahora, ¡pero lo único que ella habla ahora es de tí!",
+		"sound": "Sexy",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Sra. Lindgren",
+		"text": "Deberias de volver a jugar con ella algún día.",
+		"sound": "Sexy"
+	}
+}

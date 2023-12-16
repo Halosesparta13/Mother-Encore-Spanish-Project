@@ -1,0 +1,19 @@
+{
+	"0": {
+		"name": "David",
+		"text": "Tengo una extraña enfermedad en la que mis monedas siguen desapareciendo",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name": "David",
+		"text": "El doctor dice que tengo que mantenerme alejado de las maquinitas.",
+		"sound": "Adult",
+		"goto": "2"
+	},
+	"2": {
+		"name": "David",
+		"text": "¿Quién hubiera sabido que tengo la fiebre de Pac-Man?",
+		"sound": "Adult"
+	}
+}

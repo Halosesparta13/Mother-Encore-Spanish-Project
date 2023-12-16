@@ -1,0 +1,70 @@
+{
+	"0": {
+		"name":"Acalde Goodman",
+		"text":"Ciudadano, Sé que te gustaria ayudar a tu ciudad.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name":"Acalde Goodman",
+		"text":"Bueno...",
+		"sound": "Adult",
+		"goto": "2"
+	},
+	"2": {
+		"name":"Acalde Goodman",
+		"text":"Una niña se ha extraviado en el [color]cementerio al sur de la ciudad[/color].",
+		"sound": "Adult",
+		"goto": "3"
+	},
+	"3": {
+		"name":"Acalde Goodman",
+		"text":"Y...",
+		"sound": "Adult",
+		"goto": "4"
+	},
+	"4": {
+		"name":"Acalde Goodman",
+		"text":"Estoy para las reelecciones pronto.",
+		"sound": "Adult",
+		"goto": "5"
+	},
+	"5": {
+		"name":"Acalde Goodman",
+		"text":"¡Debes ayudar!",
+		"sound": "Adult",
+		"goto": "6"
+	},
+	"6": {
+		"name":"Acalde Goodman",
+		"text":"¡Pprfavor, ayudame!",
+		"sound": "Adult",
+		"options": {
+			"Si": "7",
+			"No": "10",
+			"cancel": "10"
+		}
+	},
+	"7": {
+		"name":"Acalde Goodman",
+		"text":"¿¡Oh!? ¿Irás allí y la salvarás?",
+		"sound": "Adult",
+		"goto": "8"
+	},
+	"8": {
+		"name":"Acalde Goodman",
+		"text":"Devuélvemela con vida, y seguramente seré un heroe...",
+		"sound": "Adult",
+		"goto": "9"
+	},
+	"9": {
+		"name":"Mayor Goodman",
+		"text":"Er, umh, Quise decir... ¡Serás un heroe",
+		"sound": "Adult"
+	},
+	"10": {
+		"name":"Acalde Goodman",
+		"text":"¡¿Como pudistes hacerme esto a mí?!",
+		"sound": "Adult"
+	}
+}

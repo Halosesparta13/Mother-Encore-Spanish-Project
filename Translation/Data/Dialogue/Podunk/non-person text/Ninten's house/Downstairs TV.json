@@ -1,0 +1,9 @@
+{
+	"0": {
+		"text": "Hay un hombre en las noticias que está siendo entrevistado sobre el aumento reciente de actividad paranormal.",
+		"goto": "1"
+	},
+	"1": {
+		"text": "Está agitando mucho los brazos."
+	}
+}
