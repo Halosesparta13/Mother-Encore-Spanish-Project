@@ -6,14 +6,14 @@ var t = 0
 var textSpeed = 0.08
 var text = [
 	"A inicios de 1900,\nuna sombra oscura cubrió\nun pequeño pueblo rural de América.", 
-	"La sombra oscura\napareció misteriosamente en\nla cima del Monte Itoi.", 
+	"Aquella sombra\nmisteriosamente se alojó\nen la cima del Monte Itoi.", 
 	"Desde entonces,\nnumerosos incidentes paranormales\nocurrieron.", 
-	"El último incidente\ninvolucró la desaparición\nde una pareja joven casada.", 
-	"El nombre del hombre era George.\nEl nombre de la mujer era María.", 
+	"El último incidente\ninvolucró la desaparición\nde una joven pareja de casados.", 
+	"El hombre se llamaba George,\ny la mujer, María.", 
 	"Tan pronto como desaparecieron,\nlo hizo también la sombra.", 
-	"Dos años después,\ntan de repente como se fue,\nGeorge apareció.", 
-	"Él nunca le dijo a nadie\ndonde había estado\no que había hecho.", 
-	"Aunque comenzó un extraño\nestudio de los poderes psíquicos,\ntodo por su cuenta.", 
+	"Dos años después,\ntras subitame desaparecer,\nGeorge regresó.", 
+	"Nunca mencionó\ndonde había estado\nni qué había hecho.", 
+	"Sin embargo,\n empezó por su cuenta un extraño estudio\nsobre los poderes psíquicos.", 
 	"En tanto María,\nsu esposa...", 
 	"Ella nunca regresó.", 
 	"80 años pasaron\ndesde entonces."
