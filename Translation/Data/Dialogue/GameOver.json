@@ -6,7 +6,7 @@
     },
 	"1": {
 		"sound": "Adult",
-		"text": "Parece que te han derrotado.",
+		"text": "Parece que te derrotaron.",
 		"goto" : "2"
     },
     "2": {
@@ -25,7 +25,7 @@
     },
     "4": {
 		"sound": "Adult",
-		"text": "La próxima vez que comiences tu aventura, comenzarás desde tu último guardado.",
+		"text": "La próxima vez que continúes tu aventura, comenzarás desde tu último guardado.",
 		"goto": "5"
     },
     "5": {

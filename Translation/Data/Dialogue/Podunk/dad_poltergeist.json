@@ -11,7 +11,7 @@
 	},
 	"2": {
 		"name": "Papá",
-		"text": "Hmm, Ya veo. Suena como un poltergeist de algún tipo.",
+		"text": "Hmm, Ya veo. Suena como un poltergeist o algo por el estilo.",
 		"sound": "Adult",
 		"goto": "3"
 	},
@@ -29,13 +29,13 @@
 	},
 	"5": {
 		"name": "Papá",
-		"text": "Tu bisabuelo estudió sobre el [color]PSI[/color] en algún momento.",
+		"text": "Tu bisabuelo estudió sobre el [color]PSI[/color] por un momento.",
 		"sound": "Adult",
 		"goto": "6"
 	},
 	"6": {
 		"name": "Papá",
-		"text": "Documentó toda su investigación en su [color]diario[/color].",
+		"text": "Él documentó toda su investigación en su [color]diario[/color].",
 		"sound": "Adult",
 		"goto": "7"
 	},
@@ -45,7 +45,7 @@
 			"length": 1.0
 		},
 		"name": "Papá",
-		"text": "Pusimos todas sus cosas en el [color]sótano[/color], pero creo que está cerrado.",
+		"text": "Pusimos todas sus cosas en el [color]sótano[/color], aunque creo que lo cerramos.",
 		"sound": "Adult",
 		"goto": "8"
 	},
@@ -58,19 +58,19 @@
 	"9": {
 		"returncam": 1.0,
 		"name": "Papá",
-		"text": "De todos modos, ¡eres nuestra única esperanza!",
+		"text": "Recuerda, ¡eres nuestra única esperanza!",
 		"sound": "Adult",
 		"goto": "10"
 	},
 	"10": {
 		"name": "Papá",
-		"text": "Siempre has soñado en ir de aventuras, ¿no es así?",
+		"text": "Siempre soñastes en ir de aventuras, ¿no es así?",
 		"sound": "Adult",
 		"goto": "11"
 	},
 	"11": {
 		"name": "Papá",
-		"text": "¡Bueno, ve y protegenos a todos, [Ninten]!",
+		"text": "¡Vé y protegenos a todos, [Ninten]!",
 		"sound": "Adult",
 		"goto": "12"
 	},
