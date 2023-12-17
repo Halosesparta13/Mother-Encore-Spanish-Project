@@ -13,7 +13,7 @@ var text = [
 	"Tan pronto como desaparecieron,\nlo hizo también la sombra.", 
 	"Dos años después,\ntras subitame desaparecer,\nGeorge regresó.", 
 	"Nunca mencionó\ndonde había estado\nni qué había hecho.", 
-	"Sin embargo,\n empezó por su cuenta un extraño estudio\nsobre los poderes psíquicos.", 
+	"Sin embargo, empezó por\nsu cuenta un extraño estudio\nsobre los poderes psíquicos.", 
 	"En tanto María,\nsu esposa...", 
 	"Ella nunca regresó.", 
 	"80 años pasaron\ndesde entonces."
