@@ -954,25 +954,25 @@ margin_bottom = 178.0
 alignment = 2
 
 [node name="Label" type="Label" parent="CanvasLayer/PressButton"]
-margin_left = 69.0
-margin_right = 108.0
+margin_left = 68.0
+margin_right = 107.0
 margin_bottom = 11.0
 custom_fonts/font = ExtResource( 5 )
-text = "ATRAS"
+text = "ATRáS"
 align = 2
 
 [node name="Button" parent="CanvasLayer/PressButton" instance=ExtResource( 6 )]
-margin_left = 112.0
-margin_right = 120.0
+margin_left = 111.0
+margin_right = 119.0
 align = 2
 key = "ui_cancel"
 
 [node name="Label2" type="Label" parent="CanvasLayer/PressButton"]
-margin_left = 124.0
+margin_left = 123.0
 margin_right = 174.0
 margin_bottom = 11.0
 custom_fonts/font = ExtResource( 5 )
-text = "  Select"
+text = "  Selecc"
 align = 2
 
 [node name="Button2" parent="CanvasLayer/PressButton" instance=ExtResource( 6 )]
@@ -2152,14 +2152,15 @@ margin_bottom = 114.0
 alignment = 1
 
 [node name="Label" type="Label" parent="CanvasLayer/NamingBox/PressButton"]
-margin_right = 98.0
+margin_left = 13.0
+margin_right = 84.0
 margin_bottom = 11.0
 custom_fonts/font = ExtResource( 5 )
-text = "Capital/small"
+text = "mayus/min"
 
 [node name="Button" parent="CanvasLayer/NamingBox/PressButton" instance=ExtResource( 6 )]
-margin_left = 102.0
-margin_right = 110.0
+margin_left = 88.0
+margin_right = 96.0
 key = "ui_ctrl"
 
 [node name="Others" type="NinePatchRect" parent="CanvasLayer"]
@@ -2756,7 +2757,7 @@ margin_top = 15.0
 margin_right = 82.0
 margin_bottom = 31.0
 custom_fonts/font = ExtResource( 3 )
-text = "Are you sure?"
+text = "¿Esta bien?"
 valign = 1
 
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer/ConfirmationRight/Surely"]
@@ -2777,7 +2778,7 @@ margin_bottom = 38.0
 margin_right = 50.0
 margin_bottom = 12.0
 custom_fonts/font = ExtResource( 3 )
-text = "Yep"
+text = "Sip"
 valign = 1
 
 [node name="Label2" type="Label" parent="CanvasLayer/ConfirmationRight/Surely/VBoxContainer"]
@@ -2785,7 +2786,7 @@ margin_top = 16.0
 margin_right = 50.0
 margin_bottom = 28.0
 custom_fonts/font = ExtResource( 3 )
-text = "Nope"
+text = "Nop"
 valign = 1
 
 [node name="ConfirmationArrow" parent="CanvasLayer/ConfirmationRight/Surely" instance=ExtResource( 4 )]
