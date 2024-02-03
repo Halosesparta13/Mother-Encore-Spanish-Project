@@ -5,8 +5,8 @@ var finished = true
 var t = 0
 var textSpeed = 0.08
 var text = [
-	"The year is 1988.",
-	"Outside Podunk, a small town in America."
+	"Es el año 1988.",
+	"Fuera de Podunk, un pequeño pueblo de América."
 ]
 
 onready var dialogueLabel = $Text/HBoxContainer/ScrollingText

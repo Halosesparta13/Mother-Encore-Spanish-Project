@@ -5,18 +5,18 @@ var finished = true
 var t = 0
 var textSpeed = 0.08
 var text = [
-	"In the early 1900's,\na dark shadow covered a small\ncountry town in rural America.",
-	"The dark shadow formed\nmysteriously at the\nsummit of Mt Itoi.",
-	"At that time,\nnumerous paranormal\nincidents occured.",
-	"The last incident\ninvolved the disappearance\nof a young married couple.",
-	"The man's name was George.\nThe woman's name was Maria.",
-	"As soon as they disappeared,\nso did the dark shadow.",
-	"Two years later,\nas suddenly as he left,\nGeorge returned.",
-	"He never told anyone\nwhere he had been\nor what he had done.",
-	"But he began an odd\nstudy of psychic powers,\nall by himself.",
-	"As for Maria,\nhis wife...",
-	"She never returned.",
-	"80 years have passed\nsince then."
+	"A inicios de 1900,\nuna sombra oscura cubrió\nun pequeño pueblo rural de América.", 
+	"La sombra oscura\napareció misteriosamente en\nla cima del Monte Itoi.", 
+	"Desde entonces,\nnumerosos incidentes paranormales\nocurrieron.", 
+	"El último incidente\ninvolucró la desaparición\nde una pareja joven casada.", 
+	"El nombre del hombre era George.\nEl nombre de la mujer era María.", 
+	"Tan pronto como desaparecieron,\nlo hizo también la sombra.", 
+	"Dos años después,\ntan de repente como se fue,\nGeorge apareció.", 
+	"Él nunca le dijo a nadie\ndonde había estado\no que había hecho.", 
+	"Aunque comenzó un extraño\nestudio de los poderes psíquicos,\ntodo por su cuenta.", 
+	"En tanto María,\nsu esposa...", 
+	"Ella nunca regresó.", 
+	"80 años pasaron\ndesde entonces."
 ]
 
 onready var dialogueLabel = $Text/HBoxContainer/ScrollingText
