@@ -954,11 +954,11 @@ margin_bottom = 178.0
 alignment = 2
 
 [node name="Label" type="Label" parent="CanvasLayer/PressButton"]
-margin_left = 76.0
+margin_left = 69.0
 margin_right = 108.0
 margin_bottom = 11.0
 custom_fonts/font = ExtResource( 5 )
-text = "Back"
+text = "ATRAS"
 align = 2
 
 [node name="Button" parent="CanvasLayer/PressButton" instance=ExtResource( 6 )]
@@ -999,7 +999,7 @@ margin_top = 8.0
 margin_right = 179.0
 margin_bottom = 22.0
 custom_fonts/font = ExtResource( 3 )
-text = "What is this boy's name?"
+text = "Dale un nombre a este niño"
 align = 1
 
 [node name="name" type="ColorRect" parent="CanvasLayer/NameBox"]

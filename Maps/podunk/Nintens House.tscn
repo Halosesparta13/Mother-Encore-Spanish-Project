@@ -548,7 +548,7 @@ type = "briefcase"
 texture = ExtResource( 25 )
 
 [node name="Sparkles" parent="Objects/Present" index="1"]
-frame = 7
+frame = 32
 
 [node name="interact" parent="Objects/Present" index="3"]
 scale = Vector2( 1.5, 1.5 )
