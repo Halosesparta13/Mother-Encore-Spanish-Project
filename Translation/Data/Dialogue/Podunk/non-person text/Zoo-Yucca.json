@@ -1,9 +1,0 @@
-{
-	"0": {
-		"text": "Dirígete al este para encontrar la estación de Santa Claus.",
-		"goto": "1"
-	},
-	"1": {
-		"text": "Durígete hacia el sur para llegar al famoso zoológico de Podunk."
-	}
-}
