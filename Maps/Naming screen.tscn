@@ -864,6 +864,7 @@ __meta__ = {
 [node name="Actors" type="YSort" parent="Objects"]
 
 [node name="actor" parent="Objects/Actors" instance=ExtResource( 9 )]
+modulate = Color( 1, 1, 1, 0 )
 position = Vector2( -40, 32 )
 
 [node name="actor2" parent="Objects/Actors" instance=ExtResource( 9 )]
