@@ -8,6 +8,28 @@
 
 config_version=4
 
+_global_script_classes=[ {
+"base": "Node2D",
+"class": "AreaRoom",
+"language": "GDScript",
+"path": "res://Scripts/Main/room.gd"
+}, {
+"base": "TileMap",
+"class": "BigTileMap",
+"language": "GDScript",
+"path": "res://Scripts/Main/bigMap.gd"
+}, {
+"base": "ReferenceRect",
+"class": "RegionScreenshot",
+"language": "GDScript",
+"path": "res://Scripts/testing/RegionScreenshot.gd"
+} ]
+_global_script_class_icons={
+"AreaRoom": "",
+"BigTileMap": "",
+"RegionScreenshot": ""
+}
+
 [application]
 
 config/name="Mother: ENCORE"

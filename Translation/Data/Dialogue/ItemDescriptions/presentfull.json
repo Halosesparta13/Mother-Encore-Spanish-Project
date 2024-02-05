@@ -1,9 +1,0 @@
-{
-	"0": {
-		"text": "PartyLead abrió el presente.",
-		"goto": "1"
-	},
-	"1": {
-		"text": "Encontró ItemArt ItemName, pero tu inventario está lleno..."
-	}
-}

@@ -1,9 +1,0 @@
-{
-	"0": {
-		"text": "Dirigete al este para encontrar la estación de Santa Claus.",
-		"goto": "1"
-	},
-	"1": {
-		"text": "Dirigete al sureste para llegar a Merrysville."
-	}
-}
