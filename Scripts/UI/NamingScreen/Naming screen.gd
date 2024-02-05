@@ -14,16 +14,16 @@ var dontCare = [
 	["Lloyd", "Brian", "Albert", "Louis", "Kenny", "Jean", "Maxwell"],
 	["Pippi", "Alex", "Penny", "Ferris", "Natalie", "Katt", "Ashley"],
 	["Teddy", "Joe", "Leo", "Jeb", "Alec", "Rand", "Dallas"],
-	["Bistec", "Frijoles", "Galletas", "Pasta", "Omelets", "Natilla", "Salmón"],
+	["Prime Rib", "Bean Paste", "Creme Cookies", "Pasta", "Omelets", "Custard", "Salmon"],
 ]
 
 var biographies = [
-	"Dale un nombre a este niño",
-	"¿Como se llama esta niña?",
-	"¿Y este otro niño?",
-	"¿Y esta otra niña?",
-	"¿Y este último?",
-	"¿Cúal es tu comida favorita?"
+	"What is this boy's name?",
+	"What is this girl's name?",
+	"This other boy's name?",
+	"This other girl's name?",
+	"This last boy's name?",
+	"What is your favorite homemade food?"
 ]
 
 var information = [

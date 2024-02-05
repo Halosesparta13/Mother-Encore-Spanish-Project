@@ -15,7 +15,7 @@ var soundEffects = {
 
 func _ready():
 	global.persistPlayer.pause()
-	label.text = "Originalmente Producido por"
+	label.text = "Originally Produced by"
 	$CanvasLayer/Title/Earth.playing = true
 	audioManager.add_at_zero()
 	if audioManager.get_audio_player(audioManager.get_audio_player_count() - 1).stream != load("res://Audio/Music/Mother Earth.mp3"):
@@ -98,10 +98,10 @@ func _on_AnimationPlayer_animation_finished(anim_name):
 	match(anim_name):
 		"nintendo":
 			animationPlayer.play("itoi")
-			label.text = "Originalmente Presentado por"
+			label.text = "Originally Presented by"
 		"itoi":
 			animationPlayer.play("Team Encore")
-			label.text = "Presentado por"
+			label.text = "Presented by"
 		"Team Encore":
 			$CanvasLayer/Aboveground/Base.hide()
 			animationPlayer.play("Fade")
