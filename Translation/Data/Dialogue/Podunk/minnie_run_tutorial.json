@@ -1,0 +1,53 @@
+{
+	"0": {
+		"name": "Minnie",
+		"text": "¡No puedo hacer que la puerta se abra!",
+		"sound": "Kid",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Minnie",
+		"text": "Parece que tendremos que usar la fuerza bruta.",
+		"sound": "Kid",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Minnie",
+		"text": "Ninten, ¿necesitas recordar como correr?",
+		"options": {
+			"Si": "3",
+			"No": "7",
+			"cancel": "7"
+		},
+		"sound": "Kid"
+	},
+	"3": {
+		"name": "Minnie",
+		"text": "Esto puede sonar extraño, pero imagina algo llamado botón [color][ui_toggle][/color].",
+		"sound": "Kid",
+		"goto": "4"
+	},
+	"4": {
+		"name": "Minnie",
+		"text": "Entonces, [color]manten presionado[/color] el botón [color]sin moverlo para agacharse.[/color]",
+		"sound": "Kid",
+		"goto": "5"
+	},
+	"5": {
+		"name": "Minnie",
+		"text": "Ya cuando estes en esa posición, [color]sueltas el botón para comenzar a correr.[/color]",
+		"sound": "Kid",
+		"goto": "6"
+	},
+	"6": {
+		"name": "Minnie",
+		"text": "Tambien puedes solo [color]dejar presionado[/color] el botón [color][ui_toggle][/color] mientras corres.",
+		"sound": "Kid",
+		"goto": "7"
+	},
+	"7": {
+		"name": "Minnie",
+		"text": "¡Intenta chocar contra la puerta!",
+		"sound": "Kid"
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"0": {
+		"name":"Pierre",
+		"text":"Quiero enseñar a los zombies a volverse amistosos enseñandoles acerca de Dios",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name":"Pierre",
+		"text":"Pero... ¡Los zombies me aterran mucho!",
+		"sound": "Adult"
+	}
+}

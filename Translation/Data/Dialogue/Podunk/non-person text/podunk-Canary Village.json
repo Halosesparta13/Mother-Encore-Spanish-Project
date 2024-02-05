@@ -1,0 +1,9 @@
+{
+	"0": {
+		"text": "Vaya al sur para llegar a la ciudad de Podunk.",
+		"goto": "1"
+	},
+	"1": {
+		"text": "Dirijase al oeste si quieres visitar a la Villa Canario."
+	}
+}

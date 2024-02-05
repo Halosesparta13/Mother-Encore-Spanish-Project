@@ -1,0 +1,13 @@
+{
+	"0": {
+		"name": "Wanda",
+		"text": "Los animales se han vuelto locos y los muertos han resucitado.",
+		"sound": "Sexy",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Wanda",
+		"text": "Sabía que debiamos de haber incinerado a Rex.",
+		"sound": "Sexy"
+	}
+}

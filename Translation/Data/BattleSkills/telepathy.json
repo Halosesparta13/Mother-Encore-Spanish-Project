@@ -1,0 +1,12 @@
+{
+	"name" : "Telepathy",
+	"level" : 0,
+	"description" : "Lee los pensamientos de los demás.",
+    "category": "Assist",
+	"skillType" : "psi",
+	"targetType" : 5,
+	"useCases" : -1,
+	"ppCost" : 0,
+	"useSound" : "",
+	"hitSound" : ""
+}

@@ -1,0 +1,13 @@
+{
+	"0": {
+		"name": "Britanny",
+		"text": "¿Un poltergeist atacó tu casa?",
+		"sound": "Sexy",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Britanny",
+		"text": "Destrozó la mia en dos.",
+		"sound": "Sexy"
+	}
+}

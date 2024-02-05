@@ -1,0 +1,76 @@
+{
+	"0": {
+		"actors": {
+			"player": "leader"
+		},
+		"name": "Carol",
+		"text": "Oh [Ninten], eres mucho más valiente de lo que jamás podría imaginar.",
+		"sound": "sexy",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Carol",
+		"text": "Debes de estar agotado.",
+		"sound": "Sexy",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Carol",
+		"text": "Toma, te haré algo de FavFood.",
+		"sound": "Sexy",
+		"goto": "3"
+	},
+	"3": {
+		"name": "Carol",
+		"text": "Puedes comer aquí y descansar por la noche.",
+		"sound": "Sexy",
+		"goto": "4"
+	},
+	"4": {
+		"objectfunction": {
+			"MusicArea": "stop_music"
+		},
+		"showbox": false,
+		"fadein": {
+			"anim": "Circle Focus",
+			"speed": 0.3
+		},
+		"wait": 3,
+		"autoadvance": true,
+		"caninput": false,
+		"goto": "5"
+	},
+	"5": {
+		"objectfunction": {
+			"MusicArea3": "play_music"
+		},
+		"heal": "All",
+		"restorepp": "All",
+		"teleportactors": {
+			"player": {
+				"x": 520,
+				"y": 400
+			}
+		},
+		"teleportparty": {
+			"x": 520,
+			"y": 400
+		},
+		"actorsdir": {
+			"player": {
+				"x": 0,
+				"y": 1
+			}
+		},
+		"returncam": 0.01,
+		"fadefocus": "player",
+		"fadeout": {
+			"anim": "Circle",
+			"type": 1
+		},
+		"flag": "good_morning",
+		"wait": 1,
+		"autoadvance": true,
+		"caninput": false
+	}
+}

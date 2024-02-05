@@ -1,0 +1,58 @@
+{
+    "0": {
+		"sound": "Adult",
+		"text": "¡PartyLead!",
+		"goto" : "1"
+    },
+	"1": {
+		"sound": "Adult",
+		"text": "Parece que te derrotaron.",
+		"goto" : "2"
+    },
+    "2": {
+		"sound": "Adult",
+		"text": "Así que, ¿Que tal otra oportunidad?",
+		"options": {
+			"Si": "8",
+			"No": "3",
+			"cancel": "3"
+		}
+    },
+	"3": {
+		"sound": "Adult",
+		"text": "¿Estas seguro?",
+		"goto": "4"
+    },
+    "4": {
+		"sound": "Adult",
+		"text": "La próxima vez que continúes tu aventura, comenzarás desde tu último guardado.",
+		"goto": "5"
+    },
+    "5": {
+		"sound": "Adult",
+		"text": "¿Eso está bien?",
+        "options": {
+			"Si": "6",
+			"No": "2",
+			"cancel": "2"
+		}
+    },
+	"6": {
+		"sound": "Adult",
+		"text": "Debió haber sido un mal sueño.",
+		"goto": "7"
+    },
+	"7": {
+		"sound": "Adult",
+		"text": "¡Nos vemos, PartyLead!"
+    },
+	"8": {
+		"sound": "Adult",
+		"text": "PartyLead decidió regresar después de reunir todo el coraje y la energia que tenía.",
+		"goto": "9"
+    },
+	"9": {
+		"sound": "Adult",
+		"text": "¡Buena suerte, PartyLead!"
+    }
+}

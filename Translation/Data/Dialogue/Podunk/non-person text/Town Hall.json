@@ -1,0 +1,9 @@
+{
+	"0": {
+		"text": "Bienvenido al ayuntamiento.",
+		"goto": "1"
+	},
+	"1": {
+		"text": "Por favor, guarde cualquier queja para usted. - Alcalde"
+	}
+}

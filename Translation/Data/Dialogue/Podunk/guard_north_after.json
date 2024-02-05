@@ -1,0 +1,31 @@
+{
+	"0": {
+		"name": "Guardia",
+		"text": "El toque de queda ha sido levantado.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Guardia",
+		"text": "Sin embargo, no veo por qué se restringieron los viajes...",
+		"sound": "Adult",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Guardia",
+		"text": "Escuché que puedes comunircarte con Telepatía.",
+		"sound": "Adult",
+		"goto": "3"
+	},
+	"3": {
+		"name": "Guardia",
+		"text": "¿Has oído a todas las personas que hablan de tí?",
+		"sound": "Adult",
+		"goto": "4"
+	},
+	"4": {
+		"name": "Guardia",
+		"text": "Oh, claro, ¡probablemente nisiquiera necesitas \"escucharlos\"!",
+		"sound": "Adult",
+	},
+}

@@ -1,0 +1,13 @@
+{
+	"0": {
+		"name": "Mimmie",
+		"text": "¿Está muerto? ¡Que alivio!",
+		"sound": "Kid",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Mimmie",
+		"text": "Sabia que no debiamos de haber tomado la muñeca del sótano...",
+		"sound": "Kid"
+	}
+}

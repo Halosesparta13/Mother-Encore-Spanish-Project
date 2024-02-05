@@ -1,0 +1,12 @@
+{
+	"0": {
+		"name": "Mick",
+		"text": "¡Woof woof!",
+		"soundeffect": "M3/Woof Woof!.wav",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Mick",
+		"text": "(Si ves a otros animales, trata de escuchar sus pensamientos.)"
+	}
+}

@@ -1,9 +1,0 @@
-{
-	"0": {
-		"text": "DANGER!",
-		"goto": "1"
-	},
-	"1": {
-		"text": "DO NOT DRINK FROM THE WATER FOUNTAIN UNLESS YOU WANT LEAD POISONING."
-	}
-}

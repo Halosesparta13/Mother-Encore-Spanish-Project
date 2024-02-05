@@ -1,0 +1,13 @@
+{
+	"0": {
+		"name": "Thomas",
+		"text": "El acalde está buscando a un heroe valiente.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name":"Thomas",
+		"text":"Si encuentras uno, traelo al ayuntamiento.",
+		"sound": "Adult"
+	}
+}

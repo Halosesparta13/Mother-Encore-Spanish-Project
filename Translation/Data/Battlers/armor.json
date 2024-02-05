@@ -1,0 +1,24 @@
+{
+	"name": "Armadura",
+	"maxhp": 120,
+	"hp": 120,
+	"maxpp": 100,
+	"pp": 100,
+	"speed": 60,
+	"offense": 68,
+	"defense": 150,
+	"iq": 50,
+	"guts": 0,
+	"level": 4,
+	"exp": 400,
+	"cash": 300,
+	"skills": [
+		{"skill" : "bash", "weight" : 1}
+	],
+	"description": "Seria bueno tener tu propia armadura.",
+	"boss": false,
+	"sprite": "armor",
+	"spriteOV": "ArmorOV",
+	"music": "",
+	"bg": ""
+}
