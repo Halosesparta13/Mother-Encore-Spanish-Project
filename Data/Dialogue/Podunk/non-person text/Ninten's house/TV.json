@@ -1,0 +1,10 @@
+{
+	"0": {
+		"text": "Es una TV con un reproductor VHS incorporado.",
+		"goto": "1"
+	},
+	"1": {
+		"text": "Star Wars, Rambo y un montón de cintas están revueltas en el suelo."
+
+	}
+}
