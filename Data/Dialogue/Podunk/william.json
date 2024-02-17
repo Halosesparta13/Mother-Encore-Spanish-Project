@@ -1,0 +1,81 @@
+{
+	"0": {
+		"actors": {
+			"leader": "leader",
+			"william": "talker"
+		},
+		"name": "William",
+		"text": "Por favor se honesto.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name": "William",
+		"text": "No eres un z-zombie... ¿Cierto?",
+		"sound": "Adult",
+		"emotenpc": "sweat",
+		"options": {
+			"Si": "2",
+			"No": "4",
+			"cancel": "4"
+		}
+	},
+	"2": {
+		"name": "William",
+		"text": "Uh oh. ¡Escuché que no hay cura para los zombies!",
+		"sound": "Adult",
+		"goto": "3"
+	},
+	"3": {
+		"name": "William",
+		"text": "AAAAAAAHHH!",
+		"sound": "Adult",
+		"actorsmove": {
+			"william": {
+				"movement": [{"x": -320, "y": 0}],
+				"speed": 128,
+				"animation": "Walk",
+				"type": "step"
+			}
+		},
+		"actorsturn": {
+			"leader": {
+				"x": -1,
+				"y": 0,
+				"speed": 0.15
+			}
+		},
+		"shakecam": {
+			"size": 1,
+			"x": 1,
+			"y": 0
+		},
+		"wait": 1,
+		"autoadvance": true,
+		"caninput": false,
+		"goto": "7"
+	},
+	"4": {
+		"name": "William",
+		"text": "Ah, ¿entonces eres realmente un humano? Que alivio.",
+		"sound": "Adult",
+		"emotenpc": "heart",
+		"goto": "5"
+	},
+	"5": {
+		"name": "William",
+		"text": "Solo no mires mi pantalones...",
+		"sound": "Adult",
+		"goto": "6"
+	},
+	"6": {
+		"name": "William",
+		"text": "Tengo problemas de vejiga, ¿¡de acuerdo!?",
+		"sound": "Adult"
+	},
+	"7": {
+		"eraseactors":{
+			"william": true
+		}
+	}
+} 

@@ -1,0 +1,19 @@
+{
+	"0": {
+		"name": "Mimmie",
+		"text": "Intenté preguntarle a mamá dónde está la llave, pero no me lo dice.",
+		"sound": "Kid",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Mimmie",
+		"text": "Aunque tal vez ella te escuche. Prueba preguntandole.",
+		"sound": "Kid",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Mimmie",
+		"text": "Si logras abrir el sótano, Encontraré todo el jugo de naranja para tí.",
+		"sound": "Kid"
+	}
+}

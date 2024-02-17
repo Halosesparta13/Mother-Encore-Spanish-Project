@@ -1,0 +1,19 @@
+{
+	"0": {
+		"name": "Frederick",
+		"text": "Los muertos han revivido en el cementerio.",
+		"sound": "Adult",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Frederick",
+		"text": "Creo que aprovecharé esta oportunidad para volver a ver a mi ex esposa.",
+		"sound": "Adult",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Frederick",
+		"text": "Mi actual esposa simplemente no deja de molestarme",
+		"sound": "Adult"
+	}
+}

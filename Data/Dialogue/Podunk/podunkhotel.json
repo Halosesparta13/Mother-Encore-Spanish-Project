@@ -1,0 +1,131 @@
+{
+	"0": {
+		"name": "Simon",
+		"sound": "Adult",
+		"text": "Bievenido al Hotel Podunk.",
+		"goto": "1"
+	},
+	"1": {
+		"cash": true,
+		"name": "Simon",
+		"sound": "Adult",
+		"text": "Ofrecemos una estancia por $50.",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Simon",
+		"sound": "Adult",
+		"text": "¿Te quedarás con nosotros por la noche?",
+		"options": {
+			"Si": "3",
+			"No": "12",
+			"cancel": "12"
+		}
+	},
+	"3": {
+		"cash": false,
+		"name": "Simon",
+		"if": {
+			"hascash": 50,
+			"goto": "5"
+		},
+		"goto": "13"
+	},
+	"5": {
+		"givecash": -50,
+		"name": "Simon",
+		"sound": "Adult",
+		"text": "Que tenga un lindo día.",
+		"goto": "6"
+	},
+	"6": {
+		"cash": false,
+		"objectfunction": {
+			"MusicArea": "stop_music"
+		},
+		"actors":{
+			"player": "player"
+		},
+		"showbox": false,
+		"fadein": {
+			"anim": "Circle Focus",
+			"speed": 0.3
+		},
+		"wait": 3,
+		"autoadvance": true,
+		"caninput": false,
+		"goto": "11"
+	},
+	"7": {
+		"fadefocus": "player",
+		"fadespin": true,
+		"fadesize":{
+			"size": 0.1,
+			"speed": 0.2
+		},
+		"teleportactors":{
+			"player": {"x": -136, "y": -632}
+		},
+		"text": "Durante la noche, Lloyd arregló un item roto.",
+		"goto": "8"
+	},
+	"8": {
+		
+		"text": "Item roto se tornó en un Item reparado.",
+		"goto": "9"
+	},
+	"9": {
+		"returncam": 0.1,
+		"showbox": false,
+		"fadeout": {
+			"anim": "Circle",
+			"speed": 0.1
+		},
+		"goto": "10"
+	},
+	"10": {
+		"fadesize":{
+			"size": 0
+		},
+		"wait": 3,
+		"autoadvance": true,
+		"caninput": false,
+		"goto": "11"
+	},
+	"11":{
+		"objectfunction": {
+			"MusicArea2": "play_music"
+		},
+		"heal": "All",
+		"restorepp": "All",
+		"teleportactors": {
+			"player": {"x": -136, "y": -632}
+		},
+		"teleportparty": {"x": 520, "y": 400},
+		"actorsdir": {
+			"player": {"x": 0, "y": 1}
+		},
+		"returncam": 0.01,
+		"fadefocus": "player",
+		"fadeout":{
+			"anim": "Circle",
+			"type": 1
+		},
+		"flag": "good_morning",
+		"wait": 1,
+		"autoadvance": true,
+		"caninput": false
+	},
+	"12": {
+		"cash": false,
+		"name": "Simon",
+		"sound": "Adult",
+		"text": "¡Adiós!"
+	},
+	"13": {
+		"cash": false,
+		"name": "Simon",
+		"sound": "Adult",
+		"text": "Oh, parece que no tienes suficiente dinero."
+	}
+}

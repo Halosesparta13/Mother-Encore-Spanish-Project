@@ -1,0 +1,13 @@
+{
+	"0": {
+		"name": "Carol",
+		"text": "¿Descansastes bien?",
+		"sound": "Sexy",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Carol",
+		"text": "Siempre que quieras un poco de FavFood, eres bienvenido a volver a casa.",
+		"sound": "Sexy"
+	}
+}

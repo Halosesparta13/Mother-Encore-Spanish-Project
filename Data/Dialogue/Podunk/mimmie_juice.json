@@ -1,0 +1,26 @@
+{
+	"0": {
+		"if": {
+			"invspace": true,
+			"goto": "1"
+		},
+		"goto": "3"
+	},
+	"1": {
+		"name": "Mimmie",
+		"text": "Aquí, ten un poco de Jugo de Naranja.",
+		"sound": "Kid",
+		"goto": "2"
+	},
+	"2": {
+		"talker": "null",
+		"text": "Obtuvistes un poco de Jugo de Naranja.",
+		"item": "OrangeJuice",
+		"soundeffect": "Item Received.mp3"
+	},
+	"3": {
+		"name": "Minnie",
+		"text": "Estas cargando muchas cosas.",
+		"sound": "Kid"
+	}
+}

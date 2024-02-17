@@ -1,0 +1,11 @@
+{
+	"0": {
+		"name": "Ratón Ruidoso",
+		"text": "(Ten cuidado en no [color]envenenarte[/color] por allí.",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Ratón Ruidoso",
+		"text": "Si lo haces, tu [color]HP bajará más rápido[/color] de lo usual.)"
+	}
+}

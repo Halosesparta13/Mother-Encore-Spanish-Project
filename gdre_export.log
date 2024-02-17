@@ -1,0 +1,149 @@
+GDRE Tools v0.6.0
+Windows 10.0.22621, AMD Radeon(TM) 530, opengl3
+Warning: res://.import/Got a....wav-340848cf9023013ebf4e63ada5fb85a5.sample is a malformed path!
+Saving to res://.import/Got a_.wav-340848cf9023013ebf4e63ada5fb85a5.sample instead.
+Warning: res://Audio/Sound effects/M3/Got a....wav.import is a malformed path!
+Saving to res://Audio/Sound effects/M3/Got a_.wav.import instead.
+Extracted 2768 files, no errors detected!
+USER WARNING: Converting lossy imports, you may lose fidelity for indicated assets when re-importing upon loading the project
+   at: ImportExporter::_export_imports (modules\gdsdecomp\utility\import_exporter.cpp:58)
+Script version 3.4.0 (rev 0x5565f55) detected
+Saved project config to C:/users/bryan/desktop/juego/testing MOTHER ENCORE/MOther translate 2024/project.godot
+Recreated plugin config for BitmapFontCutterPlus
+USER WARNING: Failed to find library for this platform for plugin BitmapFontCutterPlus
+   at: ImportExporter::recreate_plugin_configs (modules\gdsdecomp\utility\import_exporter.cpp:648)
+Recreated plugin config for BottomTextEditor
+USER WARNING: Failed to find library for this platform for plugin BottomTextEditor
+   at: ImportExporter::recreate_plugin_configs (modules\gdsdecomp\utility\import_exporter.cpp:648)
+Recreated plugin config for distortionator_integration
+USER WARNING: Failed to find library for this platform for plugin distortionator_integration
+   at: ImportExporter::recreate_plugin_configs (modules\gdsdecomp\utility\import_exporter.cpp:648)
+USER ERROR: Failed to find main script for plugin PaletteSwapShader!
+   at: ImportExporter::recreate_plugin_config (modules\gdsdecomp\utility\import_exporter.cpp:610)
+USER WARNING: Failed to recreate plugin.cfg for PaletteSwapShader
+   at: ImportExporter::recreate_plugin_configs (modules\gdsdecomp\utility\import_exporter.cpp:651)
+Recreated plugin config for Purrini
+USER WARNING: Failed to find library for this platform for plugin Purrini
+   at: ImportExporter::recreate_plugin_configs (modules\gdsdecomp\utility\import_exporter.cpp:648)
+USER ERROR: Failed to find main script for plugin ZoneLoadingSystem!
+   at: ImportExporter::recreate_plugin_config (modules\gdsdecomp\utility\import_exporter.cpp:610)
+USER WARNING: Failed to recreate plugin.cfg for ZoneLoadingSystem
+   at: ImportExporter::recreate_plugin_configs (modules\gdsdecomp\utility\import_exporter.cpp:651)
+USER WARNING: Export of models/imported scenes currently unimplemented
+   at: ImportExporter::_export_imports (modules\gdsdecomp\utility\import_exporter.cpp:181)
+USER WARNING: Conversion for Resource of type PackedScene and format bbg not implemented
+   at: ImportExporter::report_unsupported_resource (modules\gdsdecomp\utility\import_exporter.cpp:1052)
+Did not convert PackedScene resource res://.import/alligator.bbg-2b681cce691dc072b117ff7b729fe98c.scn
+Did not convert PackedScene resource res://.import/baby.bbg-eaace27081667037df724d21b71ff354.scn
+Did not convert PackedScene resource res://.import/batty.bbg-f0236fedd66a7a551bb88f7615896f97.scn
+Did not convert PackedScene resource res://.import/capybara.bbg-4c03666cdd7b0c686af253e43597c12f.scn
+Did not convert PackedScene resource res://.import/centipede.bbg-d8c998ee0198b8130f29bf81f9ae1df9.scn
+Did not convert PackedScene resource res://.import/crow.bbg-7a064f66bb135013ed36d9ef17b44949.scn
+Did not convert PackedScene resource res://.import/elephant.bbg-cdb17acb1fa9333c133075812e2a50ca.scn
+Did not convert PackedScene resource res://.import/fly.bbg-795a5e3bf3129b0635c33442a09f58af.scn
+Did not convert PackedScene resource res://.import/gangzombie.bbg-fbc1aa703ba732a13952d6ef1c85ad21.scn
+Did not convert PackedScene resource res://.import/ghost.bbg-7059e3501646120a6aa4deddf7a74c04.scn
+Did not convert PackedScene resource res://.import/gorilla.bbg-ed3c73ab2d9f9083270f59cb54ada8dd.scn
+Did not convert PackedScene resource res://.import/hippie.bbg-2cf15c14f6e922b5052a238751e2b673.scn
+Did not convert PackedScene resource res://.import/hyena.bbg-160370e340b496c297f24c9180b192e7.scn
+Did not convert PackedScene resource res://.import/lamp.bbg-451e4a7120eb8aa0b1dbbda516228697.scn
+Did not convert PackedScene resource res://.import/lockstock.bbg-1af7827d77c8bcd896bff9708c88240b.scn
+Did not convert PackedScene resource res://.import/oldrobot.bbg-a9b961992442a05b2b0a732feb115d04.scn
+Did not convert PackedScene resource res://.import/pillow.bbg-25d438ab5ca3d2de6561d08da5012170.scn
+Did not convert PackedScene resource res://.import/pseudozombie.bbg-2a1bccbe980b385e3bf327b91ba5ab15.scn
+Did not convert PackedScene resource res://.import/rat.bbg-95fc76c0a50d5e824e508f104913a30f.scn
+Did not convert PackedScene resource res://.import/silverwolf.bbg-180fcc59900049235c8b1f85f209dc5d.scn
+Did not convert PackedScene resource res://.import/snake.bbg-a7858889025b9049dd186133e6b8e258.scn
+Did not convert PackedScene resource res://.import/starmanjr.bbg-86af5d9517b064edb99b8a02ee8339f0.scn
+Did not convert PackedScene resource res://.import/straydog.bbg-17bc6156462a8304572b3618ba2edeb2.scn
+Did not convert PackedScene resource res://.import/test.bbg-f7203f0ee37b194a6c489abb9249c10f.scn
+Did not convert PackedScene resource res://.import/tiger.bbg-6d9856f9db85764a3d605b5a47e2e799.scn
+Did not convert PackedScene resource res://.import/wally.bbg-4a61fae66bf1ce9447dd975ec0515e40.scn
+Saved project config to C:/users/bryan/desktop/juego/testing MOTHER ENCORE/MOther translate 2024/project.godot
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     163
+Failed scripts:                         0
+Imported resources for export session:  2768
+Successfully converted:                 868
+Lossy:                                  0
+Rewrote metadata:                       0
+Non-importable conversions:             0
+Not converted:                          26
+Failed conversions:                     0
+-------------
+
+------
+
+The following plugins failed to have their plugin.cfg regenerated:
+PaletteSwapShader
+ZoneLoadingSystem
+------
+
+The following native plugins failed to have their libraries copied:
+BitmapFontCutterPlus
+BottomTextEditor
+distortionator_integration
+Purrini
+------
+
+The following files were not converted because support has not been implemented yet:
+res://.import/alligator.bbg-2b681cce691dc072b117ff7b729fe98c.scn
+res://.import/baby.bbg-eaace27081667037df724d21b71ff354.scn
+res://.import/batty.bbg-f0236fedd66a7a551bb88f7615896f97.scn
+res://.import/capybara.bbg-4c03666cdd7b0c686af253e43597c12f.scn
+res://.import/centipede.bbg-d8c998ee0198b8130f29bf81f9ae1df9.scn
+res://.import/crow.bbg-7a064f66bb135013ed36d9ef17b44949.scn
+res://.import/elephant.bbg-cdb17acb1fa9333c133075812e2a50ca.scn
+res://.import/fly.bbg-795a5e3bf3129b0635c33442a09f58af.scn
+res://.import/gangzombie.bbg-fbc1aa703ba732a13952d6ef1c85ad21.scn
+res://.import/ghost.bbg-7059e3501646120a6aa4deddf7a74c04.scn
+res://.import/gorilla.bbg-ed3c73ab2d9f9083270f59cb54ada8dd.scn
+res://.import/hippie.bbg-2cf15c14f6e922b5052a238751e2b673.scn
+res://.import/hyena.bbg-160370e340b496c297f24c9180b192e7.scn
+res://.import/lamp.bbg-451e4a7120eb8aa0b1dbbda516228697.scn
+res://.import/lockstock.bbg-1af7827d77c8bcd896bff9708c88240b.scn
+res://.import/oldrobot.bbg-a9b961992442a05b2b0a732feb115d04.scn
+res://.import/pillow.bbg-25d438ab5ca3d2de6561d08da5012170.scn
+res://.import/pseudozombie.bbg-2a1bccbe980b385e3bf327b91ba5ab15.scn
+res://.import/rat.bbg-95fc76c0a50d5e824e508f104913a30f.scn
+res://.import/silverwolf.bbg-180fcc59900049235c8b1f85f209dc5d.scn
+res://.import/snake.bbg-a7858889025b9049dd186133e6b8e258.scn
+res://.import/starmanjr.bbg-86af5d9517b064edb99b8a02ee8339f0.scn
+res://.import/straydog.bbg-17bc6156462a8304572b3618ba2edeb2.scn
+res://.import/test.bbg-f7203f0ee37b194a6c489abb9249c10f.scn
+res://.import/tiger.bbg-6d9856f9db85764a3d605b5a47e2e799.scn
+res://.import/wally.bbg-4a61fae66bf1ce9447dd975ec0515e40.scn
+
+
+
+---------------------------------IMPORTANT NOTES----------------------------------
+
+The following resource types were detected in the project that conversion is not implemented for yet:
+Type: PackedScene         	Format: bbg
+See Export Report to see which resources were not exported.
+You will still be able to edit the project in the editor regardless.
+-------
+The following addons failed to have their libraries copied or plugin.cfg regenerated:
+- BitmapFontCutterPlus
+- BottomTextEditor
+- distortionator_integration
+- Purrini
+- PaletteSwapShader
+- ZoneLoadingSystem
+You may encounter editor errors due to this.
+Tip: Try finding the plugin in the Godot Asset Library or Github.
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 3.4.0 to edit the project.
+Note: the project may be using a custom version of Godot. Detection for this has not been implemented yet.
+If you find that you have many non-import errors upon opening the project 
+(i.e. scripts or shaders have many errors), use the original game's binary as the export template.
+
+*******************************************************************************
+

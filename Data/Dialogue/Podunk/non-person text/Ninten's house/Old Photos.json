@@ -1,0 +1,21 @@
+{
+	"0": {
+		"text": "Dos fotografias están en el cajón.",
+		"goto": "1"
+	},
+	"1": {
+		"text": "La primera es de tu familia parada en frente a la casa.",
+		"goto": "2"
+	},
+	"2": {
+		"text": "Todos están tan felices.",
+		"goto": "3"
+	},
+	"3": {
+		"text": "La segunda es una vieja foto sepia.",
+		"goto": "4"
+	},
+	"4": {
+		"text": "Una pareja parada al lado de la otra con un regocijo similar."
+	}
+}

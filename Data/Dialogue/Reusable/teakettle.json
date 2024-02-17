@@ -1,0 +1,24 @@
+{
+	"0": {
+		"text":"¿Deseas un poco de té?",
+		"options": {
+			"Si": "1",
+			"No": "2",
+			"cancel": "2"
+		}
+	},
+	"1": {
+		"text":"Disfrutastes una buena hora de té.",
+		"heal": "All",
+		"restorepp": "All",
+		"cure": {
+			"character": "All",
+			"status": "All"
+		},
+		"soundeffect": "Much Better.wav",
+		"wait": 3
+	},
+	"2": {
+		"text":"No hay tiempo para el té."
+	}
+}

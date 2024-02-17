@@ -1,0 +1,19 @@
+{
+	"0": {
+		"name": "Sra. Lindgren",
+		"text": "¡Oh no, oh Dios!",
+		"sound": "Sexy",
+		"goto": "1"
+	},
+	"1": {
+		"name": "Sra. Lindgren",
+		"text": "¡Parece que mi querida [color]Pippi[/color] está perdida!",
+		"sound": "Sexy",
+		"goto": "2"
+	},
+	"2": {
+		"name": "Sra. Lindgren",
+		"text": "Si vas a la ciudad, porfavor preguntale al [color]Acalde Goodman[/color] si alguien la ha visto, ¿esta bien?",
+		"sound": "Sexy"
+	}
+}
