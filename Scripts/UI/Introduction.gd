@@ -9,7 +9,7 @@ var text = [
 	"La sombra oscura\napareció misteriosamente en\nla cima del Monte Itoi.", 
 	"Desde entonces,\nnumerosos incidentes paranormales\nocurrieron.", 
 	"El último incidente\ninvolucró la desaparición\nde una pareja joven casada.", 
-	"El nombre del hombre era George.\nEl nombre de la mujer era María.", 
+	"El nombre del hombre era George.\nY el de la mujer, María.", 
 	"Tan pronto como desaparecieron,\nlo hizo también la sombra.", 
 	"Dos años después,\ntan de repente como se fue,\nGeorge apareció.", 
 	"Él nunca le dijo a nadie\ndonde había estado\no que había hecho.", 
