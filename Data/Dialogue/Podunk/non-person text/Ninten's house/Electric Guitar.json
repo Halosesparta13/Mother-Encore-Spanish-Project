@@ -1,10 +1,10 @@
 {
 	"0": {
-		"text": "Tu guitarra eléctrica.",
+		"text": "Es tu guitarra eléctrica.",
 		"goto": "1"
 	},
 	"1": {
-		"text": "Tu viejo te lo regaló por Navidad.",
+		"text": "Tu papá te lo regaló por Navidad.",
 		"goto": "2"
 	},
 	"2": {

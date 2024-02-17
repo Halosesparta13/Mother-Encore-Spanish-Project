@@ -1,14 +1,14 @@
 {
 	"0": {
-		"text": "Dos fotografias están en el cajón.",
+		"text": "Hay dos fotografias en el cajón",
 		"goto": "1"
 	},
 	"1": {
-		"text": "La primera es de tu familia parada en frente a la casa.",
+		"text": "La primera es de tu familia posando frente la casa.",
 		"goto": "2"
 	},
 	"2": {
-		"text": "Todos están tan felices.",
+		"text": "Todos están muy felices.",
 		"goto": "3"
 	},
 	"3": {
@@ -16,6 +16,6 @@
 		"goto": "4"
 	},
 	"4": {
-		"text": "Una pareja parada al lado de la otra con un regocijo similar."
+		"text": "Una pareja posando de lado a lado con un regocijo similar."
 	}
 }

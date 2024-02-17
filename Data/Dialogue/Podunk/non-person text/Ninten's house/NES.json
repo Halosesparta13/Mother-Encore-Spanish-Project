@@ -4,10 +4,10 @@
 		"goto": "1"
 	},
 	"1": {
-		"text": "Dentro hay un cartucho con una docena de juegos incluidos.",
+		"text": "Dentro hay un cartucho con una docena de videojuegos incluidos.",
 		"goto": "2"
 	},
 	"2": {
-		"text": "Quien haya hecho esto debe de ser muy generoso."
+		"text": "Quien haya creado esto debió de ser muy generoso."
 	}
 }
