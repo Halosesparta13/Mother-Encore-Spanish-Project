@@ -97,7 +97,7 @@ func _on_AnimationPlayer_animation_finished(anim_name):
 	match (anim_name):
 		"nintendo":
 			animationPlayer.play("itoi")
-			label.text = "       Originalmente por"
+			label.text = "Originalmente Presentado por"
 		"itoi":
 			animationPlayer.play("Team Encore")
 			label.text = "Presentado por"

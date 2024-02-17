@@ -1315,6 +1315,18 @@ tracks/31/keys = {
 "update": 0,
 "values": [ Vector2( 432, 27 ) ]
 }
+tracks/32/type = "value"
+tracks/32/path = NodePath("Aboveground/Base/Label:margin_left")
+tracks/32/interp = 1
+tracks/32/loop_wrap = true
+tracks/32/imported = false
+tracks/32/enabled = true
+tracks/32/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 60.0 ]
+}
 
 [sub_resource type="Animation" id=33]
 resource_name = "Skip Fade"
@@ -1609,8 +1621,8 @@ tracks/2/enabled = true
 tracks/2/keys = {
 "times": PoolRealArray( 0 ),
 "transitions": PoolRealArray( 1 ),
-"update": 0,
-"values": [ Vector2( 83, -14 ) ]
+"update": 1,
+"values": [ Vector2( 56, -14 ) ]
 }
 tracks/3/type = "value"
 tracks/3/path = NodePath("Aboveground/Base/credit:position")
@@ -1806,7 +1818,7 @@ color = Color( 0, 0, 0, 1 )
 
 [node name="BackEarth" type="Sprite" parent="CanvasLayer"]
 modulate = Color( 1, 1, 1, 0 )
-self_modulate = Color( 0.843709, 0.617246, 1, 1 )
+self_modulate = Color( 0.807843, 0.529412, 1, 1 )
 position = Vector2( 160, 90 )
 texture = ExtResource( 2 )
 
@@ -1989,26 +2001,25 @@ margin_bottom = 180.0
 color = Color( 0, 0, 0, 0 )
 
 [node name="Base" type="ColorRect" parent="CanvasLayer/Aboveground"]
-margin_left = 140.0
 margin_top = 94.0
-margin_right = 320.0
+margin_right = 180.0
 margin_bottom = 97.0
 color = Color( 0.972549, 0.0627451, 0.439216, 1 )
 
 [node name="Label" type="Label" parent="CanvasLayer/Aboveground/Base"]
-margin_left = 1.0
+margin_left = 60.0
 margin_top = -14.0
-margin_right = 121.0
+margin_right = 28417.0
 margin_bottom = -2.0
 custom_colors/font_color = Color( 0.298039, 0.443137, 0.886275, 1 )
 custom_fonts/font = ExtResource( 7 )
 text = "Originalmente Producido por"
 
 [node name="credit" type="Sprite" parent="CanvasLayer/Aboveground/Base"]
-position = Vector2( 37, 15 )
+position = Vector2( 142, 15 )
 texture = ExtResource( 3 )
 vframes = 3
-frame = 1
+frame = 2
 
 [node name="Abovefade" type="ColorRect" parent="CanvasLayer/Aboveground"]
 margin_right = 320.0
